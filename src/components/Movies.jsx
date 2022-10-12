@@ -4,7 +4,7 @@ import useFetch from "./useFetch";
 
 const Movies = () => {
     const { data: imgsArr } = useFetch(
-        "https://api.themoviedb.org/3/movie/popular/?api_key=692ad17fefe3f279a5bc0dfa87752845"
+        "https://api.themoviedb.org/3/movie/popular?api_key=692ad17fefe3f279a5bc0dfa87752845"
     );
 
     return (
